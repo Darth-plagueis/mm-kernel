@@ -148,5 +148,14 @@ obj-$(CONFIG_BIF)		+= bif/
 
 obj-$(CONFIG_SENSORS)		+= sensors/
 
+
+
 # htc stability files
 obj-y += htc_debug/stability/
+
+#hotplugs
+obj-$(CONFIG_CPUQUIET_FRAMEWORK)+= cpuquiet/
+obj-$(CONFIG_INTELLI_PLUG)	+= cpuintelli/
+obj-$(CONFIG_MAKO_HOTPLUG)	+= cpumako/
+
+#obj-$(CONFIG_HOTPLUGS)          +=hotplugs/
