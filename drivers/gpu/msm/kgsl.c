@@ -50,6 +50,8 @@
 #define arch_mmap_check(addr, len, flags)	(0)
 #endif
 
+//int graphics_boost;
+
 static int kgsl_pagetable_count = KGSL_PAGETABLE_COUNT;
 
 static struct kmem_cache *memobjs_cache;
